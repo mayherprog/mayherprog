@@ -10,11 +10,11 @@ I build tools that separate what is actually verified from what people repeat.
 
 A pre-registered replication of twelve published trading strategies. Both gates were registered before any result was computed, and both are reported. Auditing my own code found seven defects, documented in `ERRATA.md`; correcting one of them, a Sortino ratio built on the wrong denominator, overturned my own published conclusion.
 
-Python. Includes a Black-Scholes implementation with a textbook test and calibration against a real options surface.
+Python. Includes a Black-Scholes implementation with a textbook test, calibrated to a single day's live options surface — historical implied-volatility surfaces are paywalled, so its options numbers carry a documented 10–20% uncertainty band.
 
 ### [internship-fineprint](https://github.com/mayherprog/internship-fineprint) · [live site](https://mayherprog.github.io/internship-fineprint)
 
-What internship programs actually state about eligibility: 69 firms, 190 programs, 6,338 validator assertions passing. Every quoted line is traced to the page it came from and re-checked by an automated weekly sweep that flags drift rather than silently correcting it.
+What internship programs actually state about eligibility: 227 programs at 95 firms at the current count. Every quoted line is traced to the page it came from and re-checked by an automated weekly sweep that flags drift rather than silently correcting it.
 
 It records what firms state and never returns a verdict, because a firm's silence is not permission. Python and TypeScript, with a React front end and CI.
 
@@ -24,4 +24,4 @@ A timed arithmetic drill built on exact rational arithmetic, running in the brow
 
 ---
 
-Currently a UX intern on internal tools at Cisco. Looking for quantitative research and software engineering internships for Summer 2027.
+Summer 2026: UX intern, internal tools @ Cisco. Looking for quantitative research and software engineering internships for Summer 2027.
